@@ -4,7 +4,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;}
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
 
 body{
     display: flex;
@@ -24,9 +26,10 @@ body{
     flex-direction: column;
     border-radius: 10px;
     overflow: hidden;
-    background-color: rgb(41, 41, 41);
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.43);
+    background-color: #292929;
+    box-shadow: 4px 4px 12px #00000085;
     gap: 40px;
+    background-size: cover;
 }
 
 .card::after{
@@ -34,7 +37,7 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: #00000065;
+    background-color: #0000005f;
     z-index: 0;
 }
 
@@ -97,6 +100,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    font-size: .8em;
 }
 
 .city-infos img{

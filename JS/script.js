@@ -32,7 +32,7 @@ const getWeather = async (city)=>{
     countryFlag.src = `https://flagsapi.com/${data.sys.country}/flat/48.png`
     degrees.innerHTML = `${graus}ºC`
     condition.innerHTML = data.weather[0].description
-    humidity.innerHTML = `humidade :${data.main.humidity}%`
+    humidity.innerHTML = `humidade: ${data.main.humidity}%`
     infos.classList.remove('hidden')
     msg.classList.add('hidden')
     }
